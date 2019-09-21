@@ -10,7 +10,14 @@ import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 
 class Register : AppCompatActivity() {
-    internal constructor()
+//    internal constructor()
+
+
+    private val welcomePage:welcome_page
+
+    init{
+        welcomePage = welcome_page()
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,7 +46,7 @@ class Register : AppCompatActivity() {
             )
             editor.commit()
 
-            val activity_login = Intent(this@Register, MainActivity::class.java)
+            val activity_login = Intent(this@Register, welcome_page::class.java)
             startActivity(activity_login)
         }
 
