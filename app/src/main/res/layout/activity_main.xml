@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:fadingEdge="horizontal"
+        android:focusableInTouchMode="true"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="@string/hng6_mobile_one"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#FDF9F6"
+        android:textStyle="normal"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="#000F0F0F"
+        android:text="@string/login"
+        android:textColor="#FDF9F6"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#000A0A0A"
+        android:fontFamily="@font/roboto"
+        android:text="@string/register"
+        android:textColor="#FDF9F6"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+</LinearLayout>

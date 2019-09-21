@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">HNG6</string>
+    <string name="hng6_mobile_one">HNG6 MOBILE ONE</string>
+    <string name="register">REGISTER</string>
+    <string name="track">Track</string>
+    <string name="e_mail">E-mail</string>
+    <string name="full_name">Full Name</string>
+    <string name="create_Reregister">create_Register</string>
+    <string name="register_now">Register now</string>
+    <string name="password">Password</string>
+    <string name="register_email">Your E-mail</string>
+    <string name="login">LOGIN</string>
+    <string name="register_password">password</string>
+    <string name="your_password">Your Password</string>
+    <string name="your_e_mail">Your E-mail</string>
+    <string name="stage">stage</string>
+    <string name="textviewname">textviewname</string>
+    <string name="textviewtrack">textviewtrack</string>
+    <string name="textviewstage">textviewstage</string>
+    <string name="btnregister">register</string>
+</resources>
